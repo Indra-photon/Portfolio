@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 30px 10px 30px 10px;
+}
+.name{
+    flex-grow: 1;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: brown;
+}
+.nav-comp{
+    font-size: large;
+    font-weight: bold;
+    font-family:cursive;  
+}
+.personal-pic{
+    height: 100px;
+    width: 100px;
+    padding: 0px 0px 20px 0px;
+}
+.landing{
+    background-color: blanchedalmond;
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F2D9;
+}
+.top_heading1{
+    padding: 20px 0px 20px 450px ;
+    font-size: xx-large;
+}
+.horizontal_rule{
+    padding: 0px 100px 0px 100px ;
+}
+.about_me{
+    display: flex;
+    flex-direction: row;
+}
+.Education{
+    padding: 10px 0px 0px 30px ;
+}
+.Internships{
+    padding: 10px 0px 0px 30px ;
+}
+.heading{
+    color: brown;
+    margin: 0;
+}
+.durationofwork{
+    color: #FAAA25;
+}
+.detailsofwork{
+    color: #0473FA;
+}
+.top_heading2{
+    padding: 10px 0px 20px 550px ;
+    font-size: xx-large;
+}
