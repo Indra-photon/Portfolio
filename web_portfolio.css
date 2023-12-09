@@ -1,0 +1,58 @@
+/*Header section CSS*/
+.container_1{
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    background-color: whitesmoke;
+    gap: 30px;
+    padding: 10px 60px 0px 10px;
+}
+.container_1 .item1{
+    font-family: cursive;
+    font-size: larger;
+    flex-grow: 4;
+}
+.container_1 .item2{
+    font-family: fantasy;
+    font-size: larger;
+}
+.container_1 .item3{
+    font-family: fantasy;
+    font-size: larger;
+}
+.container_1 .item4{
+    font-family: fantasy;
+    font-size: larger;
+}
+.container_1 .item5{
+    font-family: fantasy;
+    font-size: larger;
+}
+
+/*Introduction section CSS*/
+.introduction_svg{
+    height: 400px;
+}
+.container_2{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+.container_2 .item1{
+    padding: 100px 0px 0px 30px;
+    font-size: 30px;
+    font-family: 'Rocher';
+}
+@font-palette-values --Grays {
+    font-family: Rocher;
+    base-palette: 7;
+  }
+.item1 {
+font-palette: --Grays;
+}
+  
