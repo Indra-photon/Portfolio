@@ -33,12 +33,12 @@ const Project = () => {
             <section className = 'flex justify-center'>
                 <p className = 'text-4xl text-green-900 pt-5 pb-3'>MERN Stack E-commerce website</p>
             </section>
-            <section className = 'flex justify-center'>
+            {/* <section className = 'flex justify-center'>
                 <p className = 'text-xl text-white pl-36 pr-28'>
                 As an exploration in product design and architecture I worked on an idea 
                 to build an E-commerce website. Thoroughly challenging thinking through the product 
                 design but ultimately rewarding.</p>
-            </section>
+            </section> */}
             <section className = 'flex justify-center'>
                 <p className = 'text-xl text-green-900 pl-36 pr-28'>
                 Features:
@@ -52,7 +52,7 @@ const Project = () => {
                 </p>
             </section>
             <section className = 'flex justify-center pt-3'>
-                <button className = 'text-xl text-green-900  bg-white p-1 rounded-2xl'> <a href = 'https://github.com/Indra-photon/E-commerce-Website'>Github repo</a> </button>
+                <button className = 'text-xl text-white  bg-green-700 rounded-2xl p-2'> <a href = 'https://github.com/Indra-photon/E-commerce-Website'>Github repo</a> </button>
             </section>
             
         </div>
@@ -63,20 +63,23 @@ const Project = () => {
                 <img src = {pic6} className = 'w-3/4'></img>
             </section>
             <section className = 'flex justify-center'>
-                <p className = 'text-4xl text-green-900'>Cloned website</p>
+                <p className = 'text-4xl text-green-900 pt-5'>Cloned website</p>
             </section>
             <section className = 'flex justify-center'>
-                <p className = 'text-2xl text-green-900'>Interface design/ UI</p>
+                <p className = 'text-2xl text-green-900 pb-3'>Interface design/ UI</p>
             </section>
-            <section className = 'flex justify-center'>
+            {/* <section className = 'flex justify-center'>
                 <p className = 'text-xl text-white pl-36 pr-28'>
                 As an exploration in product design and architecture I worked on an idea 
                 to clone a website. Thoroughly challenging thinking through the product 
                 design but ultimately rewarding.</p>
-            </section>
+            </section> */}
             <section className = 'flex justify-center'>
-                <p className = 'text-xl text-green-900 pl-36 pr-28'>
+                <p className = 'text-xl text-green-900 pl-24 pr-28'>
                 Frontend: HTML, CSS</p>
+            </section>
+            <section className = 'flex justify-center pt-3'>
+                <button className = 'text-xl text-white  bg-green-700 p-2 rounded-2xl'> <a href = 'https://github.com/Indra-photon/Cloning-Website---Sisyphus-Infotech'>Github repo</a> </button>
             </section>
         </div>
 
@@ -85,20 +88,24 @@ const Project = () => {
                 <img src = {pic7} className = 'w-3/4'></img>
             </section>
             <section className = 'flex justify-center'>
-                <p className = 'text-4xl text-green-900'>Cloned website</p>
+                <p className = 'text-4xl text-green-900 pt-5'>Cloned website</p>
             </section>
             <section className = 'flex justify-center'>
-                <p className = 'text-2xl text-green-900'>Interface design/ UI</p>
+                <p className = 'text-2xl text-green-900 pb-3'>Interface design/ UI</p>
             </section>
-            <section className = 'flex justify-center'>
+            {/* <section className = 'flex justify-center'>
                 <p className = 'text-xl text-white pl-36 pr-28'>
                 As an exploration in product design and architecture I worked on an idea 
                 to clone a website. Thoroughly challenging thinking through the product 
                 design but ultimately rewarding.</p>
-            </section>
+            </section> */}
             <section className = 'flex justify-center'>
-                <p className = 'text-xl text-green-900 pl-36 pr-28'>
+                <p className = 'text-xl text-green-900 pl-24 pr-28'>
                 Frontend: HTML, CSS</p>
+            </section>
+
+            <section className = 'flex justify-center pt-3 pb-5'>
+                <button className = 'text-xl text-white  bg-green-700 p-2 rounded-2xl'> <a href = 'https://github.com/Indra-photon/Cloning-Website---Sisyphus-Infotech'>Github repo</a> </button>
             </section>
         </div>
 
