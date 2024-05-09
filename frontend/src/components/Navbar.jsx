@@ -10,7 +10,7 @@ const Navbar = () => {
                 <ul className='flex gap-10 cursor-pointer pl-20 pr-10 py-10'>
                     <li className='font-bold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'><Link to = "/home">Home</Link></li>
                     <li className='font-bold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'><Link to = "/project">Project</Link></li>
-                    <li className='font-bold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>About me</li>
+                    <li className='font-bold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'><Link to = "/about">About me</Link></li>
                 </ul>
             </nav>
         </div>

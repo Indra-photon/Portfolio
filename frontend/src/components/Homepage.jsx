@@ -50,9 +50,13 @@ const Homepage = () => {
             </div>
 
             <div>
-                <p className = 'text-green-900 text-3xl pb-5 pl-32'>I’m currently available for freelance work.</p>
+                <section className='flex justify-center items-center'>
+                    <p className = 'text-green-900 text-3xl pb-5'>I’m currently available for freelance work.</p>
+                </section>
+                <section className='flex justify-center items-center'>
                 <p className = 'text-xl'>If you have a project that you want to get started, 
-                think you need my help with something </p> <p className = 'text-xl pl-48'> or just fancy saying hey, then get in touch.</p>
+                think you need my help with something or just fancy saying hey, then get in touch.</p>
+                </section>
             </div>
         </section>
     </div>
