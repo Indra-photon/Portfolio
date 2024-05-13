@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className = 'p-20 bg-green-800'>
+      <div className = 'p-10 bg-green-800'>
         <Navbar />
         <main>
           <Routes>

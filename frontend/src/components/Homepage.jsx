@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from "react-router-dom";
+import '../components/Homepage.css'
 import pic1 from '../assets/pic1_homepage.svg'
 import pic2 from '../assets/pic2.svg'
 import pic3 from '../assets/pic3.svg'
@@ -11,12 +11,12 @@ const Homepage = () => {
         <div className = 'h-screen bg-green-300 flex pl-10 pr-10 py-10'>
             
             <section className = 'text-3xl font-serif flex items-center w-1/2'>
-                <p className = 'pt-10'>I'm Indranil, a passionate <span className = 'text-green-900 font-bold'>full stack web developer</span> dedicated to crafting immersive digital 
+                <p className = 'pt-10 animate-slide1'>I'm Indranil, a passionate <span className = 'text-green-900 font-bold'>full stack web developer</span> dedicated to crafting immersive digital 
                 experiences. With a blend of creativity and technical expertise, I bring ideas to life through 
                 elegant <span className = 'text-green-900 font-bold'>front-end designs</span> and robust <span className = 'text-green-900 font-bold'>
                 back-end solutions</span>.</p>
             </section>
-            <section className = 'flex items-center'>
+            <section className = 'flex items-center opacity-80 hover:opacity-100 scale-100 duration-500'>
                 <img src={pic1} alt="Vite logo" className = 'w-full h-full opacity-100 hover:ease-in duration-300 hover:opacity-100'></img>
             </section>        
         </div>
@@ -29,7 +29,7 @@ const Homepage = () => {
 
             <div className = 'flex gap-10 pb-16'>
             <img src={pic2} className = 'w-28 h-28'></img>
-            <section>
+            <section className='transition delay-150 hover:-translate-x-1 duration-300 animate-slide'>
                 <p className = 'text-green-900 text-3xl pb-5'>Design what you want</p>
                 <p className = 'text-xl'>I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.</p>
             </section>           
